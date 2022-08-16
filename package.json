@@ -1,0 +1,23 @@
+{
+  "name": "lokalise",
+  "version": "1.0.0",
+  "description": "lokalise template",
+  "main": "gulpfile.js",
+  "scripts": {
+    "editorconfig": "editorconfig-checker -exclude libs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FomenkoAndrey/____localise-----20220816.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FomenkoAndrey/____localise-----20220816/issues"
+  },
+  "homepage": "https://github.com/FomenkoAndrey/____localise-----20220816#readme",
+  "devDependencies": {
+    "editorconfig-checker": "^4.0.2"
+  }
+}
