@@ -1,6 +1,5 @@
-@import 'normalize';
+@use "../../libs/normalize.css";
 
-@import 'presets/skins';
-@import 'presets/variables';
+@use "common";
 
-@import 'common';
+@use "sections/header";
