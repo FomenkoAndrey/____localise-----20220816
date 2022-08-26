@@ -1,0 +1,6 @@
+@use "../../presets" as *;
+@use "../../mixins" as *;
+
+.job__title {
+  @include visually-hidden
+}

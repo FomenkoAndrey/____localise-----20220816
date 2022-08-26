@@ -4,10 +4,15 @@
 .header-menu {
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   padding-top: $gap;
   padding-bottom: $gap;
   gap: $gap;
+
+  @include md {
+    justify-content: center;
+  }
 
   &::after {
     content: "";

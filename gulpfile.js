@@ -22,7 +22,7 @@ const PATH = {
 };
 
 const PLUGINS = [
-  dc({ discardComments: true }),
+  dc({discardComments: true}),
   autoprefixer({
     overrideBrowserslist: [
       'last 5 versions',
@@ -41,6 +41,7 @@ function scss() {
     .pipe(dest(PATH.cssFolder))
     .pipe(browserSync.stream());
 }
+
 function scssDev() {
   return src(PATH.scssFile, {sourcemaps: true})
     .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
